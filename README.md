@@ -17,14 +17,14 @@
 ### Using VSCode
 - Open CurrencyExchangeAPI folder using vscode
 - In the terminal
-	- From root folder Change path using command : ***  cd CurrencyExchangeAPI ***
-	- Run project using command : *** dotnet run CurrencyExchangeAPI.csproj --urls=https://localhost:7037/ ***  (Use another port if you get error)
+	- From root folder Change path using command : **cd CurrencyExchangeAPI**
+	- Run project using command : **dotnet run CurrencyExchangeAPI.csproj --urls=https://localhost:7037/**  (Use another port if you get error)
 	- Optional : In case you are using any other port to run your app, please update "API:BaseURL" appsettings.Development.json with appropriate port
 - Go to any browser and open "https://localhost:7037/swagger/index.html". This opens the swagger page in development mode which can be used to execute/debug the endpoints
 	- Update port in the above url if you are running on different port.
 - To run units tests
-	- From root folder Change path using command : *** cd CurrencyExchangeAPI.UnitTests ***  
-	- Run Tests uing command :  ***  dotnet test ***  
+	- From root folder Change path using command : **cd CurrencyExchangeAPI.UnitTests**  
+	- Run Tests uing command :  **dotnet test**  
 
 
 ## Assumptions / Business Rules
