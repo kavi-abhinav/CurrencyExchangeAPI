@@ -42,7 +42,7 @@
 - Project uses Serilog setup to logs info/errors. This currently only logs to standard output i.e console
 
 ## Future Improvements/Features
- - Given more time and context would like to add these features
+ - Would like to add these features in future
 	- Authentication
 		- This is must have feature, will probably use jwt based authentication
 		- The authentication logic can be part of this project or can be decentralized and re-used by adding it to api-gateway
